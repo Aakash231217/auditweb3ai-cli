@@ -1,0 +1,27 @@
+{
+  "name": "auditweb3-cli",
+  "version": "1.0.1",
+  "description": "A CLI tool to audit smart contracts using openai",
+  "main": "index.js",
+  "bin": {
+    "auditweb3ai": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "audit",
+    "smart contract",
+    "openai"
+  ],
+  "author": "Aakash Singh",
+  "license": "MIT",
+  "dependencies": {
+    "auditweb3-cli": "^1.0.0",
+    "commander": "^12.1.0",
+    "inquirer": "^8.2.6",
+    "openai": "^4.55.4"
+  }
+}
